@@ -30,4 +30,4 @@
 
 <br>
 
-<%= link_to 'New Idea', new_idea_path, :class => "btn btn-primary btn-lg" %>
+<%= link_to 'New Idea', new_idea_path %>
