@@ -9,9 +9,14 @@ group :development do
 end
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
 
 gem 'carrierwave'
+
+gem 'mini-magick'
+
+gem 'foreigner'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -50,3 +55,4 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'devise'

@@ -1,4 +1,6 @@
 Railsgirls::Application.routes.draw do
+  resources :comments
+
   devise_for :users
 root :to => redirect('/ideas')
 get "pages/info"

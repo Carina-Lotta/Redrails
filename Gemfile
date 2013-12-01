@@ -14,6 +14,8 @@ end
 
 gem 'carrierwave'
 
+gem 'foreigner'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
